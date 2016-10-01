@@ -1,12 +1,35 @@
 {
-  "name": "allergens",
+  "name": "allergen-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "Search a list ingredients for things you are allergic to",
   "main": "main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "yargs": "^6.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janecakemaster/allergen-search.git"
+  },
+  "keywords": [
+    "allergy",
+    "allergens",
+    "health",
+    "skin",
+    "allergies",
+    "ingredients",
+    "cli"
+  ],
+  "author": "jane <jane@janekim.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janecakemaster/allergen-search/issues"
+  },
+  "homepage": "https://github.com/janecakemaster/allergen-search#readme"
 }
