@@ -2,15 +2,12 @@
   "name": "allergen-search",
   "version": "1.0.0",
   "description": "Search a list ingredients for things you are allergic to",
-  "main": "main.js",
+  "main": "index.js",
   "directories": {
     "example": "examples"
   },
-  "dependencies": {
-    "yargs": "^6.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
